@@ -6,11 +6,17 @@
 - Ing. Alulema Darwin
 
                                                              Informe Tarea N°3
-1.- Tema: Circuitos en serie o paralelo\n
+1.- Tema: Circuitos en serie o paralelo
+
 2.- Objetivos:
+
   2.1.- Objetivo general:
-        gdfgdgdfgfgdfgdfgfdgfd
+  
+        Determinar las características de los circuitos tanto en serie como en paralelo analizando como se comportan sus componentes (corriente, voltaje y resistencia)         en cada una de ella para de este modo se puede aplicarlas en cálculo de las diversas variables en un circuito.  
         
   2.2.- Objetivo específicos:
-        gdfdgdfgdfgfdgdfgfd
+  
+        * Relacionar las leyes de Kirchhoff y como se presentan en un circuito en serie y/o en un circuito paralelo.
+        * Relacionar la ley de ohm en un circuito en serie y/o en paralelo para aplicarla en la demostración del cumplimiento de las leyes de Kirchhoff en el circuito.
+        * Realizar un listado de las principales características que permitan identificar a un circuito en serie, en paralelo, o a su vez un circuito mixto (circuito           que es en serie y también en paralelo).
         
