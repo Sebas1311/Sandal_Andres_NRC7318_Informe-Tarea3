@@ -6,7 +6,7 @@
 - Ing. Alulema Darwin
 
                                                              Informe Tarea N°3
-1.- Tema: Circuitos en serie o paralelo
+1.- Tema: Circuitos en serie o paralelo\n
 2.- Objetivos:
   2.1.- Objetivo general:
         gdfgdgdfgfgdfgdfgfdgfd
