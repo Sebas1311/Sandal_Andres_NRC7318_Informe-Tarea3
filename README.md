@@ -20,3 +20,12 @@
         * Relacionar la ley de ohm en un circuito en serie y/o en paralelo para aplicarla en la demostración del cumplimiento de las leyes de Kirchhoff en el circuito.
         * Realizar un listado de las principales características que permitan identificar a un circuito en serie, en paralelo, o a su vez un circuito mixto (circuito que es en serie y también en paralelo).
         
+3.- Marco teórico
+
+![image](https://user-images.githubusercontent.com/105684550/171303151-f0ce7363-b12e-4fd2-b5be-68256019534c.png)
+
+Link del mapa mental: https://gitmind.com/app/doc/7c011238089
+
+4.- Resolición
+
+        
