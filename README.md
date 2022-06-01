@@ -26,6 +26,6 @@
 
 Link del mapa mental: https://gitmind.com/app/doc/7c011238089
 
-4.- Resolición
+4.- Resolución
 
         
