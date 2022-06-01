@@ -22,7 +22,7 @@
         
 3.- Marco teórico
 
-![image](https://user-images.githubusercontent.com/105684550/171303151-f0ce7363-b12e-4fd2-b5be-68256019534c.png)
+![image](https://user-images.githubusercontent.com/105684550/171306036-9b59517b-35ef-4327-a0fb-5ae866f0e183.png)
 
 Link del mapa mental: https://gitmind.com/app/doc/7c011238089
 
