@@ -474,9 +474,6 @@ R2=(680*389.2)/(680+389.2)        R2=910.09 Ω
 
                                         
 
-
-
-
 	
  Aplicación de la ley de Ohm
 
@@ -563,9 +560,8 @@ I2=0.14 mA
 I3=0.1mA                                                     
 
 
-28. Determine la corriente total suministrada por la fuente y la corriente a través de cada resistor para cada
+28. Determine la corriente total suministrada por la fuente y la corriente a través de cada resistor para cada una de las posiciones de interruptor mostradas en la figura 6-76.
 
-una de las posiciones de interruptor mostradas en la figura 6-76.
 ![image](https://user-images.githubusercontent.com/105684550/171780061-5631532c-07c6-47ba-b3e4-7014c9c9d761.png)
 
 VS=24
@@ -588,6 +584,7 @@ IT=0.064 Ma
 Fuentes de corriente en paralelo
 
 30. Determine la corriente a través de RL en cada uno de los circuitos de la figura 6-78.
+
 ![image](https://user-images.githubusercontent.com/105684550/171780089-3aa65266-52e2-4ef7-b5d1-7f4c673f0115.png)
 
 IRL=1mA+2mA
@@ -625,7 +622,7 @@ RT=1/((1/1.0+1/2.7)) = 0.73 kΩ
     I2=(RT/R2)IT= (0.73kΩ/2.7kΩ)(3A)=0.81 A
 
 
-34. ¿Cuál es la corriente a través de cada resistor mostrado en la figura 6-82? R es el resistor de valor más
+34. ¿Cuál es la corriente a través de cada resistor mostrado en la figura 6-82? R es el resistor de valor más.
 
 ![image](https://user-images.githubusercontent.com/105684550/171780169-1c91e33c-6643-4b0e-8e55-86cfb0c88395.png)
 
@@ -709,9 +706,8 @@ IT= 4080 mA
 
 Localización de fallas
 
-44. En la figura 6-85, se indican las mediciones de corriente y voltaje. ¿Se ha abierto un resistor, y, de ser
+44. En la figura 6-85, se indican las mediciones de corriente y voltaje. ¿Se ha abierto un resistor, y, de ser así, cuál?
 
-así, cuál?
 ![image](https://user-images.githubusercontent.com/105684550/171780249-ab3f8556-b7e4-4881-bda4-5764e576c315.png)
 
  
