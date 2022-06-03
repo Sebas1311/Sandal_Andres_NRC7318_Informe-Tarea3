@@ -157,7 +157,8 @@ VT = 5.5V + 8.2V + 12.3V
 VT = 26V
 
 32. Determine la caída o las caídas de voltaje no especificadas en cada circuito de la figura 5-80. Muestre cómo conectar un voltímetro para medir cada una de las caídas de voltaje desconocidas.
- 
+ ![image](https://user-images.githubusercontent.com/105684550/171779312-bb3188e5-4963-4ced-abae-0929d8d8995f.png)
+
 	Las caídas de voltaje son las que están en las resistencias: 2V, V2, 1V, 3.2V, 1V, 1.5V, 0.5V.
 15V - 0.5V – 1.5V – 1V – 3.2V – V2 - 2V = 0
 6.8V – V2 = 0
@@ -168,8 +169,13 @@ Vs – 8V – VR1 – VR2 – VR3 – VR4 = 0
 8V = Vs – VR1 – VR2 – VR3 – VR4
 
 El voltímetro se debe colocar en paralelo a las resistencias para poder medir las caídas de voltaje.
+
+![image](https://user-images.githubusercontent.com/105684550/171779349-f72ed0ba-8446-4cb6-bca8-6dfe1c54f1e3.png)
+
  
 34. Encuentre R1, R2 y R3 en la figura 5-82.
+
+![image](https://user-images.githubusercontent.com/105684550/171779381-9687d44a-76b5-4983-b7b5-1b9a0f7189b5.png)
  
 R3 = 9V / 0.01A
 R3 = 900Ω
@@ -181,7 +187,9 @@ R1 = 5.6V / 0.01A
 R1 = 560Ω
 
 36. Con el resultado del problema 35, determine el voltaje a través de cada resistor mostrado en la figura 5-83 para cada posición del interruptor.
- 
+
+![image](https://user-images.githubusercontent.com/105684550/171779437-bfb9b006-6306-49e3-8f3b-7ff0ffe03a6f.png)
+
 RT = 18V / 0.01A
 RT = 800
 
@@ -203,6 +211,8 @@ VR3 = -23.8V
 
 38. Determine el voltaje entre los puntos A y B en cada divisor de voltaje de la figura 5-84.
  
+ ![image](https://user-images.githubusercontent.com/105684550/171779475-ee3f1b2f-6bc9-4f7d-9a00-e96bbfc96ec7.png)
+
 	RT = 100Ω + 56Ω = 156Ω
 
 V1 = (100Ω / 156Ω) × 12V
@@ -225,10 +235,10 @@ V3 = 4.06V
 VAB = (3300Ω + 2200Ω / 6500Ω) × 8V = 6.77V
 
 
-
-
 40. Determine los voltajes mínimo y máximo producidos por el divisor de voltaje de la figura 5-85(b).
  
+ ![image](https://user-images.githubusercontent.com/105684550/171779518-22303126-aefd-45d6-9429-d0cf280b662d.png)
+
 RT = 470Ω + 1000Ω + 680Ω = 2150Ω
 
 V1 = (470Ω / 2150Ω) × 12V = 2.62V     → Voltaje min.
@@ -239,6 +249,8 @@ V3 = (680Ω / 2150Ω) × 12V = 3.8V
 
 42. En cada punto de la figura 5-87, determine el voltaje con respecto al lado negativo de la batería.
  
+ ![image](https://user-images.githubusercontent.com/105684550/171779547-44d13de8-e1e4-449a-883c-079391777130.png)
+
 RT = 22000Ω + 10000Ω + 56000Ω +15000Ω + 5600Ω = 108600Ω = 108.6kΩ
 
 I = 100V / 108600Ω = 0.96Ma
@@ -248,7 +260,8 @@ VAF = [(22000Ω + 10000Ω + 56000Ω +15000Ω + 5600Ω) / 108600Ω) × 100V
 
 44. Con la tabla de valores estándar de resistor dada en el apéndice A, diseñe un divisor de voltaje para producir los siguientes voltajes aproximados con respecto a tierra utilizando una fuente de 30 V; 8.18 V, 14.7 V, y 24.6 V. La corriente extraída de la fuente debe limitarse a no más de 1 mA. El número de resistores, sus valores, y sus valores nominales de potencia en watts deben ser especificados. Se debe proporcionar un diagrama esquemático que muestre la disposición del circuito y la colocación de los resistores.
 El diseño del circuito que cumple con las características dadas es el siguiente: 
- 
+ ![image](https://user-images.githubusercontent.com/105684550/171779565-3a9309e9-2a2c-4ad2-b050-7da154c099bd.png)
+
 46. Cada uno de cinco resistores dispuestos en serie manejan 50 mW. ¿Cuál es la potencia total?
 PT = 50mW + 50mW + 50mW + 50mW + 50mW = 250mW = 0.25W
 
@@ -271,10 +284,11 @@ R3 = P3 / I^2 = 0.5W / (19.09mA)^2 = 1372.01Ω
 
 52. En la figura 5-91, ¿cómo determinaría el voltaje en R2 por medición, sin conectar un medidor directamente a través del resistor?
  
+ ![image](https://user-images.githubusercontent.com/105684550/171779609-3ba27d5e-a115-4db7-8829-1c33d58bce95.png)
+
 El voltaje se puede medir normalmente a través de un resisto, aun cuando ningún lado del resistor esté conectado a tierra. Si el instrumento de medición no está aislado de la tierra de la línea de potencia, el conductor negativo del medidor conectará a tierra un lado del resistor y modificará la operación del circuito. En esta situación, se debe utilizar otro método. Se mide el voltaje en cada lado del resistor con respecto a tierra. La diferencia entre estas dos mediciones representa la caída de voltaje del resistor.
 Ejemplo: 
- 
-
+ ![image](https://user-images.githubusercontent.com/105684550/171779625-26a14da0-7f63-48d2-8746-64e44f7065e7.png)
 
 54. Se conecta una serie de cinco resistores a través de una batería de 12 V. Se miden 0 volts en todos los resistores excepto en R2. ¿Qué está mal en el circuito? ¿Qué voltaje se medirá a través de R2?
 ¿Qué está mal en el circuito?
@@ -288,7 +302,8 @@ El voltaje medido en R2 será el mismo de la fuente de energía principal, y en 
 - Resistores en paralelo:
 
 2. Determine si todos los resistores de la figura 6-65(b) están conectados o no en paralelo en la tarjeta de circuito impreso.
- 
+ ![image](https://user-images.githubusercontent.com/105684550/171779685-e7929da5-2557-49d1-ad76-fb1a9d6e1a7c.png)
+
 Los resistores de este circuito, si están en paralelo ya que estos resistores están conectados por diferentes caminos, es decir que la corriente viaja del extremo de la fuente de voltaje a través de muchas ramas del circuito.
 Voltaje en un circuito en paralelo:
 
@@ -299,7 +314,8 @@ R= (550Ω) * (4)
 R = 2200 Ω
 
 6. ¿Cuál es la resistencia total del circuito visto desde la fuente de voltaje para cada posición del interruptor incluido en la figura 6-68?
- 
+ ![image](https://user-images.githubusercontent.com/105684550/171779728-53e1113d-f676-404c-add3-4ff4af12b0be.png)
+![image](https://user-images.githubusercontent.com/105684550/171779738-5a5f9643-47fa-4b60-a45e-e80b1a071c27.png)
  
 Posición A:
 RT=(R1*R2)/(R1+R2)=(R1*R4)/(R1+R4)
@@ -315,10 +331,9 @@ RT=(R1*R2)/(R1+R2)
 RT=(1KΩ*1.8kΩ)/(1KΩ+1.8kΩ)=(1.8kΩ^2)/2.8kΩ
 RT=0.64 kΩ
 
-
-
 8. ¿Cuál es la corriente total suministrada por la fuente de voltaje que muestra la figura 6-68 para cada posición del interruptor?
- 
+ ![image](https://user-images.githubusercontent.com/105684550/171779767-2e5e76f2-6681-4ade-a26f-0f6038869768.png)
+
 Mediante el uso del divisor de voltaje
 Posición A:
 IR1=Vs/R1=15V/1kΩ
@@ -369,7 +384,7 @@ RT=1/((1/1.0+1/2.2+1/5.6+1/12+1/( 22)))   = 21/( 37)             RT=  0.57 MΩ
 
 16. Calcule RT en cada uno de los circuitos de la figura 6-70.
 
- 
+ ![image](https://user-images.githubusercontent.com/105684550/171779804-69d47629-5e4d-4f96-ad29-39d00861b675.png)
 
 1/RT=1/R1+1/R2
 
@@ -378,32 +393,24 @@ RT=1/((1/1.0+1/2.2+1/5.6+1/12+1/( 22)))   = 21/( 37)             RT=  0.57 MΩ
 RT=1/((1/560+1/220))     RT =136.55 Ω
 
 
-
+![image](https://user-images.githubusercontent.com/105684550/171779827-57d8237b-4db8-4cd2-b5aa-2f85f00978ba.png)
 
 1/RT=1/R1+1/R2
-
-
 
 1/RT=1/27+1/56
 
 RT=1/((1/27+1/56))     RT =18.22 kΩ
 
+
+![image](https://user-images.githubusercontent.com/105684550/171779878-94b2a20b-cdf6-48f7-875c-7f7cab7f0a9c.png)
 	
-
 1/RT=1/R1+1/R2
-
-
 
 1/RT=1/1.5+1/2.2
 
 RT=1/((1/1.5+1/2.2))     RT =0.89 kΩ
 
 	
-
-
-
-
-
 
 18. Tres grupos, uno de cinco resistores de 470Ω, otro de diez resistores de 100 Ω, y uno más de dos resistores
 
@@ -435,7 +442,7 @@ RT=(100 Ω)/2   RT=50 Ω
 
 20. Si la resistencia total en la figura 6-71 es de 389.2Ω, ¿cuál es el valor de R2?
 
-
+![image](https://user-images.githubusercontent.com/105684550/171779924-b92bed13-1d81-48d5-a237-7c7c0d99208b.png)
                                    
  Formula del resistor en paralelo desconocido Rx=(RA * RT)/(RA-RT)   
 
@@ -452,6 +459,8 @@ R2=(680*389.2)/(680+389.2)        R2=910.09 Ω
 
 22. ¿Cuál es la corriente total en cada uno de los circuitos de la figura 6-73?
 
+![image](https://user-images.githubusercontent.com/105684550/171779948-595214a4-be16-4381-84ac-69826a2e6856.png)
+
 R1=33 Ω = 0.33 k Ω
 
 R2=33 Ω= 0.33 k Ω
@@ -466,8 +475,7 @@ IT= 303.03+303.03+370.37
 IT=976.43 mA
 
 
-
-
+![image](https://user-images.githubusercontent.com/105684550/171779976-44791501-506f-4282-85eb-4fb46a222e6f.png)
 
 R3=560 Ω=0.56 kΩ
  
@@ -479,9 +487,6 @@ IT=25V/(1.0 k Ω)+25V/(4.7 k Ω)+25V/(0.56k Ω)
 IT= 25+5.32+44.64
 
 IT=74.96  mA
-
-
-
 
 
 24. Cuatro resistores de igual valor están conectados en paralelo. Se aplican cinco volts al circuito en paralelo
@@ -503,7 +508,8 @@ Resp:  El valor de cada resistor es 18 kΩ
 
 26. Encuentre los valores de las cantidades marcadas no especificadas en cada circuito de la figura 6-74
 
-
+![image](https://user-images.githubusercontent.com/105684550/171780010-764944e1-3168-4fe0-8fdd-f49460d9e45f.png)
+![image](https://user-images.githubusercontent.com/105684550/171780030-9180b830-a3f5-44ec-a519-b65de4fa79c9.png)
 
 I2=?	  R1=  10/100 =0.1 kΩ
 
@@ -518,8 +524,6 @@ R1=100V/0.26   R1=384.61 Ω
 R2= 680 Ω
 
 R3=1.0kΩ=1000Ω
-
-
 
 
 
@@ -539,9 +543,7 @@ I3=0.1mA
 28. Determine la corriente total suministrada por la fuente y la corriente a través de cada resistor para cada
 
 una de las posiciones de interruptor mostradas en la figura 6-76.
-
- 
-
+![image](https://user-images.githubusercontent.com/105684550/171780061-5631532c-07c6-47ba-b3e4-7014c9c9d761.png)
 
 VS=24
 
@@ -563,13 +565,13 @@ IT=0.064 Ma
 Fuentes de corriente en paralelo
 
 30. Determine la corriente a través de RL en cada uno de los circuitos de la figura 6-78.
-
-
+![image](https://user-images.githubusercontent.com/105684550/171780089-3aa65266-52e2-4ef7-b5d1-7f4c673f0115.png)
 
 IRL=1mA+2mA
 
 IRL=3mA
 
+![image](https://user-images.githubusercontent.com/105684550/171780108-2dc912f5-1c31-42c8-81b2-c2136102967a.png)
 
 IRL=50µA-40µA
 
@@ -577,11 +579,7 @@ IRL=10µA
 
 IRL=0.001mA
 
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/105684550/171780122-75c1b726-6784-46ed-b32c-deb0df0b4433.png)
 
 IRL=1A - 2.5A +2A
 
@@ -591,13 +589,11 @@ IRL=500mA
 
 
 
-
-
-
 Divisores de corriente
 
 32. ¿Cuánta corriente deberán indicar los medidores de la figura 6-80 a través de cada rama?
 
+![image](https://user-images.githubusercontent.com/105684550/171780151-bae5a005-c031-4177-892a-87ead7cf91c4.png)
 
 RT=1/((1/1.0+1/2.7)) = 0.73 kΩ
 
@@ -606,15 +602,11 @@ RT=1/((1/1.0+1/2.7)) = 0.73 kΩ
     I2=(RT/R2)IT= (0.73kΩ/2.7kΩ)(3A)=0.81 A
 
 
-
-
-
 34. ¿Cuál es la corriente a través de cada resistor mostrado en la figura 6-82? R es el resistor de valor más
 
+![image](https://user-images.githubusercontent.com/105684550/171780169-1c91e33c-6643-4b0e-8e55-86cfb0c88395.png)
 
 bajo, y todos los demás valores son múltiplos de éste como se indica.
-
-
 
  
 RT=1/(1/2 Ω+1/4 Ω+1/6 Ω+1/8 Ω)=0.96 Ω
@@ -626,13 +618,9 @@ I4=(0.96Ω/8Ω)*10mA=1.2 mA
 10mA=10mA
 
 
-
-
-
-
-
 * 36. (a) Determine el valor requerido del resistor en derivación RSH1 en el amperímetro de la figura 6-49 si
 
+![image](https://user-images.githubusercontent.com/105684550/171780205-28f57af5-4543-4d35-89e5-b4750179d3a5.png)
 
 la resistencia del movimiento de medidor es de 50 Ω.
 
@@ -644,10 +632,9 @@ VM=50 mV
 
 
 
-
 (b) Encuentre el valor requerido para RSH2 en el circuito medidor de la figura 6-50 (RM _ 50 Ω)
 
-
+![image](https://user-images.githubusercontent.com/105684550/171780222-b85e8226-87db-455b-b601-fc13b0c4470e.png)
 
 VM=IM *RM 
 
@@ -694,11 +681,29 @@ Localización de fallas
 44. En la figura 6-85, se indican las mediciones de corriente y voltaje. ¿Se ha abierto un resistor, y, de ser
 
 así, cuál?
+![image](https://user-images.githubusercontent.com/105684550/171780249-ab3f8556-b7e4-4881-bda4-5764e576c315.png)
 
  
 Si, la resistencia R5 está abierta, ya que en la figura se puede ver que se ha perdido conexión con el circuito, y esto afecta al memento de medir el voltaje, puesto que este se mido en paralelo.
 
 46. ¿Qué está mal con el circuito de la figura 6-86 si el medidor lee 5.55 mA?
  
+![image](https://user-images.githubusercontent.com/105684550/171780273-99478c79-ef54-472d-bd31-2df9e3e1de2f.png)
 
 *La corriente IR1 no esta conectada, por lo tanto la sumatoria que la corriente IR2, IR3 da 5.55mA
+
+
+5.- Video:
+
+https://youtu.be/LF5Ew0S43ps
+
+
+6.- Conclusiones
+- Para concluir, se pudo aplicar correctamente la ley de ohm en la resolucion de ejercicios de circuitos tanto en serie y en paralelo identificando sus características principales: en el circuito en serie la corriente es constante y el voltaje se divide pero en el circuito en paralelo el voltaje es constante y la corriente se divide.
+- Por último, se logró identificar que la Ley de Kirchhoff es de gran ayuda para poder corroborar que los calculos esten correctos o que al despejar la ley de ohm se lo hizo adecuadamente; En pocas palabras esta ley sirve para comprobar.
+
+
+7.- Bibliografía
+* Khan Academy. (2021). Circuitos | Lecciones de física | Ciencia. Khan Academy. Recuperado June 2, 2022, de https://es.khanacademy.org/science/physics/circuits-topic 
+* Khan Academy. (2021). Resumen del análisis de circuitos (artículo). Khan Academy. Recuperado junio 2, 2022, de https://es.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/a/ee-circuit-analysis-overview 
+* Roberth, L. (2013, mayo 29). Circuitos en serie y en paralelo. La guía de Física. Recuperado junio 2, 2022, de https://fisica.laguia2000.com/general/circuitos-en-serie-y-en-paralelo 
